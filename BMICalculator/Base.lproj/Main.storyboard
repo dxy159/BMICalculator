@@ -71,6 +71,13 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g6p-Tw-WZR">
+                                <rect key="frame" x="150" y="503" width="300" height="32"/>
+                                <fontDescription key="fontDescription" name="TrebuchetMS-Bold" family="Trebuchet MS" pointSize="17"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -82,14 +89,17 @@
                             <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Hzj-KA-wbL"/>
                             <constraint firstItem="mRx-7R-BU7" firstAttribute="leading" secondItem="Ehp-6e-5ZJ" secondAttribute="trailing" priority="900" constant="50" id="YzH-W0-DTa"/>
                             <constraint firstItem="L15-kE-65G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Zc6-rv-bw7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g6p-Tw-WZR" secondAttribute="bottom" constant="65" id="bkl-F3-dVD"/>
                             <constraint firstItem="mRx-7R-BU7" firstAttribute="top" secondItem="5z9-y0-uCt" secondAttribute="bottom" constant="124.5" id="cIH-2J-8Zd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="W5p-5r-ew5" secondAttribute="trailing" constant="30" id="eYk-fK-GE6"/>
                             <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="height" secondItem="mRx-7R-BU7" secondAttribute="height" id="fgo-XL-z0x"/>
                             <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="top" secondItem="5z9-y0-uCt" secondAttribute="bottom" constant="124.5" id="fwz-nA-ZcP"/>
                             <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="width" secondItem="mRx-7R-BU7" secondAttribute="width" id="htl-VT-X7r"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="g6p-Tw-WZR" secondAttribute="trailing" constant="130" id="i13-Wu-8oF"/>
                             <constraint firstItem="W5p-5r-ew5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iz1-vf-t0q"/>
                             <constraint firstItem="L15-kE-65G" firstAttribute="top" secondItem="mRx-7R-BU7" secondAttribute="bottom" constant="70" id="jkf-m4-CYZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5z9-y0-uCt" secondAttribute="trailing" constant="30" id="l8d-Wr-rWF"/>
+                            <constraint firstItem="g6p-Tw-WZR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="130" id="p4q-pd-k00"/>
                             <constraint firstItem="W5p-5r-ew5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="uXo-57-TUO"/>
                             <constraint firstItem="L15-kE-65G" firstAttribute="top" secondItem="Ehp-6e-5ZJ" secondAttribute="bottom" constant="70" id="zsd-B0-jkc"/>
                         </constraints>
