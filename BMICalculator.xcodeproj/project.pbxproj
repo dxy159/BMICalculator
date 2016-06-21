@@ -13,6 +13,7 @@
 		191B634B1D174A6E00ABF850 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 191B634A1D174A6E00ABF850 /* Assets.xcassets */; };
 		191B634E1D174A6E00ABF850 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 191B634C1D174A6E00ABF850 /* LaunchScreen.storyboard */; };
 		1920F9A11D18FC4A00DB661C /* CalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1920F9A01D18FC4A00DB661C /* CalculatorModel.swift */; };
+		1920F9A31D19E6D800DB661C /* ResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1920F9A21D19E6D800DB661C /* ResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		191B634D1D174A6E00ABF850 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		191B634F1D174A6E00ABF850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1920F9A01D18FC4A00DB661C /* CalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorModel.swift; sourceTree = "<group>"; };
+		1920F9A21D19E6D800DB661C /* ResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				191B634C1D174A6E00ABF850 /* LaunchScreen.storyboard */,
 				191B634F1D174A6E00ABF850 /* Info.plist */,
 				1920F9A01D18FC4A00DB661C /* CalculatorModel.swift */,
+				1920F9A21D19E6D800DB661C /* ResultsController.swift */,
 			);
 			path = BMICalculator;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1920F9A31D19E6D800DB661C /* ResultsController.swift in Sources */,
 				1920F9A11D18FC4A00DB661C /* CalculatorModel.swift in Sources */,
 				191B63461D174A6E00ABF850 /* ViewController.swift in Sources */,
 				191B63441D174A6E00ABF850 /* AppDelegate.swift in Sources */,

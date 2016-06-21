@@ -16,20 +16,9 @@ struct BMIInformation {
     
 }
 
-func convertImperialHeightToMetricHeight(info: BMIInformation) -> Double {
-    
-    let heightInInches = (info.feet * 12) + info.inches
-    let meters = heightInInches * 0.0254
-    return meters
-    
-}
 
-func convertImperialWeightToMetricWeight(info: BMIInformation) -> Double {
-    
-       return info.pounds * 0.453592
-    
-}
-
-func computeBMI(kilos: Double, meters: Double) -> Double {
+func computeBMI(info: BMIInformation) -> Double {
+    let kilos = info.pounds * 0.453592
+    let meters = ((info.feet * 12) + info.inches) * (0.0254)
     return kilos / (meters * meters)
 }
