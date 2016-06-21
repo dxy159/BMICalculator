@@ -77,6 +77,9 @@
                                 <state key="normal" title="Go!">
                                     <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="computeBMI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sv1-M9-REX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -112,6 +115,9 @@
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="5z9-y0-uCt" id="qom-fV-oWV"/>
+                        <outlet property="feetTextField" destination="Ehp-6e-5ZJ" id="W5N-W8-MHM"/>
+                        <outlet property="inchesTextField" destination="mRx-7R-BU7" id="9IG-Gb-vgs"/>
+                        <outlet property="poundsTextField" destination="L15-kE-65G" id="UBL-Wq-Ffy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

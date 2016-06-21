@@ -11,6 +11,9 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var feetTextField: UITextField!
+    @IBOutlet weak var inchesTextField: UITextField!
+    @IBOutlet weak var poundsTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +26,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func computeBMI(sender: UIButton) {
+    }
 
 }
 
