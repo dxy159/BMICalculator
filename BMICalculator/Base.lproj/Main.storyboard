@@ -56,16 +56,49 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="inches" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mRx-7R-BU7">
+                                <rect key="frame" x="325" y="250" width="225" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="feet" textAlignment="center" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="Ehp-6e-5ZJ">
+                                <rect key="frame" x="50" y="250" width="225" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="pounds" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="L15-kE-65G">
+                                <rect key="frame" x="50" y="350" width="500" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="5z9-y0-uCt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="08m-nC-ihS"/>
+                            <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="width" secondItem="mRx-7R-BU7" secondAttribute="width" id="4Z7-jb-WuS"/>
                             <constraint firstItem="5z9-y0-uCt" firstAttribute="top" secondItem="W5p-5r-ew5" secondAttribute="bottom" constant="20" id="5yD-Ra-45T"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mRx-7R-BU7" secondAttribute="trailing" constant="30" id="9hF-gN-TQO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="L15-kE-65G" secondAttribute="trailing" constant="30" id="BnI-75-PyR"/>
+                            <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Hzj-KA-wbL"/>
+                            <constraint firstItem="mRx-7R-BU7" firstAttribute="leading" secondItem="Ehp-6e-5ZJ" secondAttribute="trailing" priority="900" constant="50" id="YzH-W0-DTa"/>
+                            <constraint firstItem="L15-kE-65G" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Zc6-rv-bw7"/>
+                            <constraint firstItem="mRx-7R-BU7" firstAttribute="top" secondItem="5z9-y0-uCt" secondAttribute="bottom" constant="124.5" id="cIH-2J-8Zd"/>
                             <constraint firstAttribute="trailingMargin" secondItem="W5p-5r-ew5" secondAttribute="trailing" constant="30" id="eYk-fK-GE6"/>
+                            <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="height" secondItem="mRx-7R-BU7" secondAttribute="height" id="fgo-XL-z0x"/>
+                            <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="top" secondItem="5z9-y0-uCt" secondAttribute="bottom" constant="124.5" id="fwz-nA-ZcP"/>
+                            <constraint firstItem="Ehp-6e-5ZJ" firstAttribute="width" secondItem="mRx-7R-BU7" secondAttribute="width" id="htl-VT-X7r"/>
                             <constraint firstItem="W5p-5r-ew5" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iz1-vf-t0q"/>
+                            <constraint firstItem="L15-kE-65G" firstAttribute="top" secondItem="mRx-7R-BU7" secondAttribute="bottom" constant="70" id="jkf-m4-CYZ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="5z9-y0-uCt" secondAttribute="trailing" constant="30" id="l8d-Wr-rWF"/>
                             <constraint firstItem="W5p-5r-ew5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="uXo-57-TUO"/>
+                            <constraint firstItem="L15-kE-65G" firstAttribute="top" secondItem="Ehp-6e-5ZJ" secondAttribute="bottom" constant="70" id="zsd-B0-jkc"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fgo-XL-z0x"/>
+                                <exclude reference="htl-VT-X7r"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="descriptionLabel" destination="5z9-y0-uCt" id="qom-fV-oWV"/>
