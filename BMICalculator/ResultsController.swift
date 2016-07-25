@@ -2,7 +2,7 @@
 //  ResultsController.swift
 //  BMICalculator
 //
-//  Created by Richard Ni on 2016-06-21.
+//  Created by Richard Ni on 2016-07-22.
 //  Copyright © 2016 Richard Ni. All rights reserved.
 //
 
@@ -10,11 +10,18 @@ import UIKit
 
 class ResultsController: UIViewController {
 
-    @IBOutlet weak var valueOfBMI: UILabel!
-    @IBOutlet weak var descriptionOfBMI: UILabel!
+    @IBOutlet weak var bmiValue: UILabel!
+    @IBOutlet weak var bmiDescription: UILabel!
+    
+    var bmiValueText = String()
+    var bmiDescriptionText = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        bmiValue.text = bmiValueText
+        
+        bmiDescription.text = bmiDescriptionText
 
         // Do any additional setup after loading the view.
     }
@@ -25,14 +32,5 @@ class ResultsController: UIViewController {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }

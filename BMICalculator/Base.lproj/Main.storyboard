@@ -18,101 +18,53 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZZo-Gi-1ye">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gP1-Nv-l3Q">
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="feet" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qWc-yZ-0tV">
-                                <rect key="frame" x="0.0" y="0.0" width="46.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="inches" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0iS-Nf-4rh">
-                                <rect key="frame" x="0.0" y="0.0" width="63.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yXO-oa-gTi">
-                                <rect key="frame" x="107" y="0.0" width="106" height="41"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
-                                <state key="normal" title="Compute">
-                                    <color key="titleColor" red="0.25098040700000002" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="BMI CALCULATOR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DrR-dv-1cH">
-                                <rect key="frame" x="46" y="0.0" width="228.5" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="26"/>
-                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Please enter in your height and weight to compute your BMI" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="aCh-VV-evQ">
-                                <rect key="frame" x="-68" y="0.0" width="456" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="pounds" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jIr-yK-0AE">
-                                <rect key="frame" x="126" y="0.0" width="69.5" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BMI Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4cV-wx-diO">
-                                <rect key="frame" x="83" y="72" width="154" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="kg" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NSO-0J-yRf">
-                                <rect key="frame" x="112" y="272" width="97" height="30"/>
+                                <rect key="frame" x="142" y="272" width="36.5" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="cm" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HCI-kv-FqF">
-                                <rect key="frame" x="112" y="156" width="97" height="30"/>
+                                <rect key="frame" x="139" y="156" width="41" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Height" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Btv-6s-ss0">
-                                <rect key="frame" x="130" y="127" width="51" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="134" y="127" width="51" height="21"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Weight" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4ka-JM-OLh">
-                                <rect key="frame" x="132" y="243" width="56.5" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <rect key="frame" x="133" y="243" width="54" height="21"/>
+                                <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8E-Oy-H78">
-                                <rect key="frame" x="66" y="409" width="188" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8E-Oy-H78">
+                                <rect key="frame" x="62" y="409" width="196" height="30"/>
                                 <state key="normal" title="Go"/>
                                 <connections>
-                                    <segue destination="rOy-OY-9Ol" kind="show" id="PDm-gH-8dd"/>
+                                    <segue destination="rOy-OY-9Ol" kind="show" identifier="computeBMI" id="PDm-gH-8dd"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="BMI Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="4cV-wx-diO">
+                                <rect key="frame" x="54" y="64" width="212" height="47"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Wide" family="Marker Felt" pointSize="26"/>
+                                <color key="textColor" red="0.0" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="4ka-JM-OLh" firstAttribute="top" secondItem="Btv-6s-ss0" secondAttribute="bottom" constant="95" id="2vR-KX-r9q"/>
-                            <constraint firstItem="jIr-yK-0AE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="51x-A2-q9J"/>
                             <constraint firstItem="4cV-wx-diO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="63" id="6Um-OC-IIR"/>
+                            <constraint firstItem="i8E-Oy-H78" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4ka-JM-OLh" secondAttribute="bottom" constant="50" id="6xM-Xg-Slo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="i8E-Oy-H78" secondAttribute="trailing" constant="46" id="9zt-94-lSX"/>
-                            <constraint firstItem="aCh-VV-evQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FZO-wG-Rgn"/>
                             <constraint firstItem="i8E-Oy-H78" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="46" id="JSS-v5-uAJ"/>
                             <constraint firstItem="NSO-0J-yRf" firstAttribute="centerX" secondItem="4ka-JM-OLh" secondAttribute="centerX" id="LcR-HZ-hyU"/>
                             <constraint firstItem="HCI-kv-FqF" firstAttribute="centerX" secondItem="Btv-6s-ss0" secondAttribute="centerX" id="O3N-2E-9aD"/>
-                            <constraint firstItem="yXO-oa-gTi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UPR-fe-AwW"/>
                             <constraint firstItem="i8E-Oy-H78" firstAttribute="centerX" secondItem="NSO-0J-yRf" secondAttribute="centerX" id="Wom-c5-j8c"/>
                             <constraint firstItem="NSO-0J-yRf" firstAttribute="top" secondItem="4ka-JM-OLh" secondAttribute="bottom" constant="8" id="XBh-IM-uFf"/>
-                            <constraint firstItem="DrR-dv-1cH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="frZ-sF-XcU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4cV-wx-diO" secondAttribute="trailing" constant="63" id="g64-M9-Xkj"/>
                             <constraint firstItem="4cV-wx-diO" firstAttribute="centerX" secondItem="Btv-6s-ss0" secondAttribute="centerX" id="h68-SH-gIJ"/>
                             <constraint firstItem="HCI-kv-FqF" firstAttribute="top" secondItem="Btv-6s-ss0" secondAttribute="bottom" constant="8" id="iUw-y7-SZ8"/>
@@ -122,6 +74,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o6W-hf-jcs"/>
+                    <connections>
+                        <outlet property="heightTextField" destination="HCI-kv-FqF" id="Q7b-h1-Gra"/>
+                        <outlet property="weightTextField" destination="NSO-0J-yRf" id="6zv-gb-pRQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -139,7 +95,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="APO-nC-0rK">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="APO-nC-0rK">
                                 <rect key="frame" x="96" y="117" width="128" height="83.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="24.0">
@@ -153,7 +109,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.59999999999999998" translatesAutoresizingMaskIntoConstraints="NO" id="gcv-qr-ltu">
-                                <rect key="frame" x="26" y="176.5" width="268" height="254.5"/>
+                                <rect key="frame" x="26" y="220.5" width="268" height="210.5"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Your BMI is in the range of healthy. You are on good track and you should keep up the hard work!">
                                         <attributes>
@@ -165,7 +121,7 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="UFL-8d-hrS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="UFL-8d-hrS">
                                 <rect key="frame" x="96" y="70" width="128" height="47"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Your BMI is">
@@ -197,8 +153,8 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
                     <connections>
-                        <outlet property="descriptionOfBMI" destination="gcv-qr-ltu" id="Pgv-8h-t3s"/>
-                        <outlet property="valueOfBMI" destination="APO-nC-0rK" id="f0l-08-Ehx"/>
+                        <outlet property="bmiDescription" destination="gcv-qr-ltu" id="043-90-CWp"/>
+                        <outlet property="bmiValue" destination="APO-nC-0rK" id="eZP-z1-zvH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fdb-fl-Z6s" userLabel="First Responder" sceneMemberID="firstResponder"/>

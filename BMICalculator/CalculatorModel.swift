@@ -8,17 +8,20 @@
 
 import Foundation
 
-struct BMIInformation {
+class BMIInformation {
     
-    let feet: Double
-    let inches: Double
-    let pounds: Double
+    let cm: Double
+    let kg: Double
+    
+    init(cm: Double, kg: Double) {
+        self.cm = cm
+        self.kg = kg
+    }
+    
+    func computeBMI() -> Double {
+        let m = self.cm / 100
+        return self.kg / (m * m)
+    }
     
 }
 
-
-func computeBMI(info: BMIInformation) -> Double {
-    let kilos = info.pounds * 0.453592
-    let meters = ((info.feet * 12) + info.inches) * (0.0254)
-    return kilos / (meters * meters)
-}
